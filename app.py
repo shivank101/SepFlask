@@ -16,7 +16,7 @@ def aboutus():
     return "<p>We are Mlops learners</p>"
 
 
-model_pickle = open("/Users/scaler/Documents/SeptMlops/SepFlask/classifier.pkl", "rb")
+model_pickle = open("classifier.pkl", "rb")
 clf = pickle.load(model_pickle)
 
 # defining the endpoint which will make the prediction
